@@ -1,0 +1,283 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 10px 5px;
+}
+.btn-1 {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 4px !important;
+    width: 100px;
+}
+.btn-1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.navb {
+   padding-left: 20% !important;
+}
+.navb li {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 40px;
+    color: black;
+    font-weight: 600;
+}
+.cs-content-box h1 {
+    padding-top: 90px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.cs-content-box p {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.btn-a {
+    margin-top: 50px;
+}
+.google {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.context {
+    width: 400px;
+    height: 280px;
+    background-color: aquamarine;
+    position: relative;
+    left: 50px;
+    border-radius: 19px;
+    background-color: white;
+    border: 3px solid black;
+}
+.context-1 {
+    width: 400px;
+    height: 280px;
+    background-color: rgb(104, 146, 132);
+    align-items: center;
+    border-radius: 19px;
+    background-color: white;
+    border: 3px solid black;
+}
+.context-2 {
+    width: 400px;
+    height: 280px;
+    background-color: rgb(112, 42, 42);
+    position: relative;
+    right: 50px;  
+    border-radius: 19px; 
+    background-color: white;
+    border: 3px solid black;
+}
+.card-body {
+    padding: 30px !important;
+}
+.card-body h5 {
+    padding-bottom: 20px;
+    padding-right: 21px;
+    font-size: 22px;
+}
+.card-body p {
+    font-size: 18px;
+    padding-left: 15px;
+}
+.photo {
+    width: 60px;
+    padding-right: 25px;
+}
+.context-1 h5 {
+     padding-bottom: 20px;
+     padding-right: 30px;
+     font-size: 22px;
+}
+.css-text {
+    padding-top: 8%;
+}
+.css-text h1 {
+    font-size: 60px;
+}
+.css-text p {
+    font-size: 25px;
+    padding-top: 30px;
+}
+.contain {
+    text-align: center;
+    
+}
+.contain h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.contein {
+    text-align: center;
+}
+.css-area {
+    display: flex;
+}
+
+.cs-text-box h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.cs-connect-box {
+   display: flex;    
+   margin-left: 32%;
+   align-items: center;
+   border: 2px solid black;
+   border-radius: 6px;
+   padding: 5px;
+   margin-top: 30px;
+   width: 400px;
+   font-size: 18px;
+
+}
+
+.cs-connect-box input {
+        border: none;       
+}
+
+.cs-connect-box button {
+    width: 200px; 
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    
+}
+.lasit>li {
+    padding-top: 20px;
+    line-height: 10px;
+    font-size: 20px !important;
+}
+.lasit-a {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.main>p {
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+
+@media (max-width :767px) {
+
+
+    .context {
+        margin-right:97px;
+        margin-bottom: 50px;
+        height: 450px;
+        width: 400px;
+    }
+
+     .context p {
+        font-size: 15px;
+        padding-bottom: 30px; 
+     }
+
+     .context-2 {
+        margin-left: 40px;
+        margin-top: 3px;
+        height: 430px;
+        width: 200px;
+     }
+     .context-2 p {
+          font-size: 15px;        
+     }
+     .context-1 p {
+          font-size: 15px;
+          
+      }
+      .context-1 {
+           height: 480px;
+           margin-right: 45px;
+           
+      }
+      .cs-connect-box {
+        margin-left: 80px;
+      }
+      .cs-text-box {
+        margin-left: 20px;
+      }
+
+
+}
+
+
+@media (max-width : 480px) {
+
+    .navb {
+        align-items: center;
+    }
+    .cs-image-box img {
+        width: 500px;   
+    }
+    .google {
+        flex-direction: column;
+        align-items: center;
+    }
+    .context {
+        width: 400px;
+        height: 250px;
+        margin-right:97px;
+        margin-bottom: 50px;
+    }
+    .context-1 {
+        width: 400px;
+        height: 250px;
+        margin-left: 45px;
+    }
+    .context-2 {
+        width: 400px;
+        height: 250px;
+        margin-left:90px;
+        margin-top: 50px;
+    }
+    .css-picture img {
+        width: 400px;
+    }
+    .cs-connect-box {
+            margin-left: 8%;
+        
+    }
+    .book {
+        text-align: center;
+    }
+
+   
+       
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
